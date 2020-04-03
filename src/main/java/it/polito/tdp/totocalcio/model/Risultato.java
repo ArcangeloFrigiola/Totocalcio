@@ -20,6 +20,11 @@ public class Risultato {
 		}
 	}
 	
+	public Risultato(List<RisultatoPartita> lista) {
+		
+		risultati.addAll(lista);
+	}
+	
 	public String toString() {
 		return this.risultati.toString() ;
 	}
